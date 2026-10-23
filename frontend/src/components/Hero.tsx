@@ -11,7 +11,7 @@ export default function Hero() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary-200 bg-primary-50 px-4 py-1.5">
             <span className="h-2 w-2 rounded-full bg-primary-500 animate-pulse" />
             <span className="text-xs font-semibold text-primary-700">
-              Neu: DSGVO-konform & cloud-basiert
+              Cloud-basierte Praxisverwaltung
             </span>
           </div>
 
@@ -21,9 +21,8 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-xl">
-            Verwalten Sie Patienten, Termine und Rechnungen zentral und sicher –
-            ohne komplizierte Software. Jetzt starten und Ihre Praxis
-            digitalisieren.
+            Verwalten Sie Patienten, Termine und Rechnungen zentral –
+            ohne komplizierte Software.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -31,7 +30,7 @@ export default function Hero() {
               href="#pricing"
               className="w-full sm:w-auto rounded-xl bg-primary-600 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-primary-600/25 hover:bg-primary-700 transition-all hover:shadow-xl hover:shadow-primary-600/30"
             >
-              14 Tage kostenlos testen
+              Preise ansehen
             </a>
             <a
               href="#features"
@@ -47,13 +46,13 @@ export default function Hero() {
               <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>DSGVO-konform</span>
+              <span>Cloud-basiert</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span>Keine Kreditkarte nötig</span>
+              <span>Monatliche Abrechnung</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

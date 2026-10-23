@@ -44,7 +44,6 @@ const plans = [
       "Unbegrenzte Praxisstandorte",
       "API-Zugang",
       "Persönlicher Ansprechpartner",
-      "SLA mit 99,9% Verfügbarkeit",
     ],
     priceId: process.env.NEXT_PUBLIC_STRIPE_PRICE_ENTERPRISE || "",
     popular: false,
@@ -92,7 +91,7 @@ export default function Pricing() {
             Einfache, transparente Preise
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
-            Wählen Sie den Plan, der zu Ihrer Praxis passt. 14 Tage kostenlos testen, keine Kreditkarte erforderlich.
+            Wählen Sie den Plan, der zu Ihrer Praxis passt.
           </p>
         </div>
 
@@ -151,14 +150,14 @@ export default function Pricing() {
               >
                 {loading === plan.name
                   ? "Wird geladen..."
-                  : `Jetzt ${plan.name} testen`}
+                  : `${plan.name} wählen`}
               </button>
             </div>
           ))}
         </div>
 
         <p className="mt-12 text-center text-sm text-gray-500">
-          Alle Preise inkl. MwSt. Jederzeit kündbar. Testphase: 14 Tage kostenlos.
+          Alle Preise inkl. MwSt. [PLATZHALTER: Kündigungsfrist gemäß AGB bestätigen].
         </p>
       </div>
     </section>

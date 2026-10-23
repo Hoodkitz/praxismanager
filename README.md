@@ -53,5 +53,4 @@ uvicorn app.main:app --reload
 - ✅ Landing Page mit Hero, Features, Pricing
 - ✅ Stripe Checkout Integration (Test-Modus)
 - ✅ Responsive Design (Tailwind CSS)
-- ✅ DSGVO-konform
 - ✅ FastAPI Backend mit Patienten-, Termin-, Rechnungs-APIs

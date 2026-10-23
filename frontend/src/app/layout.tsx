@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "PraxisManager – Praxisverwaltung einfach gemacht",
   description:
-    "Die moderne Praxisverwaltung für Ärzte und Therapeuten. Patienten, Termine und Rechnungen zentral verwalten – sicher, DSGVO-konform und cloud-basiert.",
+    "Die moderne Praxisverwaltung für Ärzte und Therapeuten. Patienten, Termine und Rechnungen zentral verwalten.",
 };
 
 export default function RootLayout({

@@ -22,31 +22,28 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               <li><a href="#features" className="text-sm text-gray-500 hover:text-gray-700">Features</a></li>
               <li><a href="#pricing" className="text-sm text-gray-500 hover:text-gray-700">Preise</a></li>
-              <li><a href="#" className="text-sm text-gray-500 hover:text-gray-700">Changelog</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-gray-900">Rechtliches</h4>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-sm text-gray-500 hover:text-gray-700">Impressum</a></li>
-              <li><a href="#" className="text-sm text-gray-500 hover:text-gray-700">Datenschutz</a></li>
-              <li><a href="#" className="text-sm text-gray-500 hover:text-gray-700">AGB</a></li>
+              <li><Link href="/impressum" className="text-sm text-gray-500 hover:text-gray-700">Impressum</Link></li>
+              <li><Link href="/datenschutz" className="text-sm text-gray-500 hover:text-gray-700">Datenschutz</Link></li>
+              <li><Link href="/agb" className="text-sm text-gray-500 hover:text-gray-700">AGB</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-gray-900">Support</h4>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-sm text-gray-500 hover:text-gray-700">Hilfe-Center</a></li>
-              <li><a href="#" className="text-sm text-gray-500 hover:text-gray-700">Kontakt</a></li>
-              <li><a href="#" className="text-sm text-gray-500 hover:text-gray-700">Status</a></li>
+              <li><Link href="/impressum" className="text-sm text-gray-500 hover:text-gray-700">Kontakt</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 border-t border-gray-200 pt-8 text-center text-sm text-gray-500">
-          © 2026 PraxisManager. Alle Rechte vorbehalten.
+          © 2026 PraxisManager. Alle Rechte vorbehalten.<br />Hinweis: PraxisManager ist eine Verwaltungssoftware und ersetzt keine ärztliche, therapeutische oder rechtliche Beratung.
         </div>
       </div>
     </footer>

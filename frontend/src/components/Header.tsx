@@ -17,16 +17,16 @@ export default function Header() {
           <a href="#pricing" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
             Preise
           </a>
-          <a href="#" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+          <Link href="/impressum" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
             Kontakt
-          </a>
+          </Link>
         </nav>
         <div className="flex items-center gap-3">
           <Link
             href="#pricing"
             className="rounded-lg bg-primary-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-700 transition-colors"
           >
-            Kostenlos testen
+            Preise
           </Link>
         </div>
       </div>
